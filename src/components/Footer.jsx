@@ -1,8 +1,10 @@
 
 const Footer = () => {
     return (
-        <footer className="text-center">
-            Copyright. Group 1
+        <footer className="container">
+           <div className="text-center border border-dark p-3 border-2">
+                Copyright. Group 1
+           </div>
         </footer>
     )
 }

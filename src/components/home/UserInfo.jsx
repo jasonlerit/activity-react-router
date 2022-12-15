@@ -10,12 +10,12 @@ const UserInfo = () => {
     })
 
     return (
-        <div className="card">
+        <div className="card border border-dark mb-2 lh-2">
             <div className="card-body">
-                <p className="card-text">
+                <p className="card-text fw-bold">
                     {user.name}
                 </p>
-                <p className="card-text">
+                <p className="card-text fw-bold">
                     {user.email}
                 </p>
                 <p className="card-text">

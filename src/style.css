@@ -16,3 +16,13 @@
 .gmap_iframe {
     height: 289px !important;
 }
+
+nav .nav-item .nav-link.active {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+ul li {
+    list-style-type: none;
+}

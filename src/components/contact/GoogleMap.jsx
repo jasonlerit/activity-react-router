@@ -3,9 +3,9 @@ import '../../style.css'
 
 const GoogleMap = () => {
     return (
-        <div>
+        <div className='border-2 border-dark border p-3'>
             <div>
-                Group Address Here
+                <h3>Group Address Here</h3>
             </div>
             <div class="mapouter">
                 <div class="gmap_canvas">

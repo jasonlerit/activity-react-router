@@ -6,10 +6,10 @@ const Contact = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                     <ContactInfo />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                     <GoogleMap />
                 </div>
             </div>

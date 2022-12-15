@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+        <nav className="navbar navbar-expand-lg border border-2 border-dark p-3 d-flex justify-content-between">
             {/* Logo */}
             <NavLink to="/" className="nav-link">
                 Logo

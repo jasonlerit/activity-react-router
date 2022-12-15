@@ -20,7 +20,7 @@ const Time = () => {
     return (
         <div className="card">
             <div className="card-body">
-                <p className="card-text">
+                <p className="card-text fw-bold">
                     {time}
                 </p>
                 <p className="card-text">
