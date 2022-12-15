@@ -14,19 +14,19 @@ const Navbar = () => {
             </button>
             {/* Menus */}
             <div id="navbar" className="collapse navbar-collapse d-lg-flex justify-content-end">
-                <ul className="navbar-nav">
-                    <li className="nav-item px-2">
-                        <NavLink to="/" className="nav-link">
+                <ul className="navbar-nav pt-2">
+                    <li className="nav-item">
+                        <NavLink to="/" className="nav-link p-2">
                             Home
                         </NavLink>
                     </li>
-                    <li className="nav-item px-2">
-                        <NavLink to="/about" className="nav-link">
+                    <li className="nav-item">
+                        <NavLink to="/about" className="nav-link p-2">
                             About
                         </NavLink>
                     </li>
-                    <li className="nav-item px-2">
-                        <NavLink to="/contact" className="nav-link">
+                    <li className="nav-item">
+                        <NavLink to="/contact" className="nav-link p-2">
                             Contact
                         </NavLink>
                     </li>
