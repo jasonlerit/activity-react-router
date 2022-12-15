@@ -16,7 +16,7 @@ const NewsFeed = () => {
     }
 
     return (
-        <div>
+        <div className="border border-2 border-dark p-3">
             {
                 posts.map((post) => <Post post={post} />)
             }

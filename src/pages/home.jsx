@@ -7,12 +7,12 @@ const Home = () => {
         <div className="container">
             <div className="row py-2">
                 {/* Left */}
-                <div className="col-md-4 py-3 ">
+                <div className="col-md-4">
                     <UserInfo />
                     <Time />
                 </div>
                 {/* Right */}
-                <div className="col-md-8 border border-2 border-dark rounded px-4 py-2">
+                <div className="col-md-8">
                     <NewsFeed />
                 </div>
             </div>
