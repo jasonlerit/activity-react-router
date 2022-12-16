@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg border border-2 border-dark p-3 d-flex justify-content-between">
             <NavLink to="/" className="nav-link">
-                Logo
+                GROUP 1
             </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                 <span className="navbar-toggler-icon"></span>

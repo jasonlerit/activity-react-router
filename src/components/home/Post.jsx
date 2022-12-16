@@ -1,7 +1,7 @@
 
 const Post = ({ post }) => {
     return (
-        <div className="card my-2">
+        <div className="card mb-4 shadow border-0">
             <div className="card-body">
                 <div className="card-title fw-bold">
                     {post.title}

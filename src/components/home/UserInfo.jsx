@@ -4,9 +4,9 @@ import { useState } from "react"
 const UserInfo = () => {
 
     const [user, setUser] = useState({
-        name: "John Doe",
-        email: "johndoe@kodego.com",
-        bio: "Hi I am John Doe. Ako lang malakas"
+        name: "Jryl Lim",
+        email: "jryllim@kodego.com",
+        bio: "Hi I am Jryl Lim. Ako lang malakas kasi J 😎"
     })
 
     return (
