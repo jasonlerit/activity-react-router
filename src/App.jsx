@@ -4,6 +4,7 @@ import {
     RouterProvider,
 } from "react-router-dom"
 import Layout from "./components/layout/Layout"
+import PageNotFound from "./pages/404"
 import About from "./pages/about"
 import Contact from "./pages/contact"
 import Home from "./pages/home"
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
                 element: <Contact />
             },
         ]
+    },
+    {
+        path: "*",
+        element: <PageNotFound />
     }
 ])
 
