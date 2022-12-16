@@ -13,13 +13,13 @@ const UserInfo = () => {
         <div className="card border border-2 border-dark mb-2 lh-2">
             <div className="card-body">
                 <p className="card-text fw-bold">
-                    {user.name}
+                    Name: {user.name}
                 </p>
                 <p className="card-text fw-bold">
-                    {user.email}
+                    Email: {user.email}
                 </p>
                 <p className="card-text">
-                    {user.bio}
+                    <span className="fw-bold">Bio:</span> {user.bio}
                 </p>
             </div>
         </div>
