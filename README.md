@@ -1,5 +1,4 @@
-# React Activity ([Live Demo](https://react-activity-group-1.vercel.app/))
-> Some description
+# React with Router (Activity) ([Live Demo](https://react-activity-group-1.vercel.app/))
 
 ## 💻 Tech Stack
 > - React
